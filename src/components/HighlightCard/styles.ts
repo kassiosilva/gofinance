@@ -29,7 +29,7 @@ export const Title = styled.Text<TypeProps>`
   font-size: ${RFValue(14)}px;
 
   color: ${({ theme, type }) =>
-    type === 'total' ? theme.colors.shape : theme.colors.text_dark
+    type === 'total' ? theme.colors.shape : theme.colors.title
   };
 `;
 
@@ -56,7 +56,7 @@ export const Amount = styled.Text<TypeProps>`
   font-size: ${RFValue(32)}px;
 
   color: ${({ theme, type }) =>
-    type === 'total' ? theme.colors.shape : theme.colors.text_dark
+    type === 'total' ? theme.colors.shape : theme.colors.title
   };
 
   margin-top: 38px;
